@@ -1,0 +1,13 @@
+let num1Input = document.getElementById("num1");
+let num2Input = document.getElementById("num2");
+let outputDiv = document.getElementById("output");
+//let show = document.getElementById
+
+function showHigherNumber() {
+  let num1 = Number(num1Input.value);
+  let num2 = Number(num2Input.value);
+
+  let higherNumber = (num1 > num2) ? num1 : num2;
+
+  outputDiv.innerHTML = 'The higher number is ' + higherNumber
+}
